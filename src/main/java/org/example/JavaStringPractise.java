@@ -42,7 +42,7 @@ public class JavaStringPractise {
         System.out.println(isAnagrams);
 
         //count the occurrence of each character in a string.
-        String myString = "sampleghdgjjkhkstring";
+        String myString = "sampleghdgjjkhkstri";
         Map<Character,Integer> count = new TreeMap<>();
             for(char ch:myString.toCharArray()){
                 if(count.containsKey(ch)){
